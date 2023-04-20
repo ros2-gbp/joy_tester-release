@@ -1,0 +1,12 @@
+Source: ros-iron-joy-tester
+Section: misc
+Priority: optional
+Maintainer: Josh Newans <josh.newans@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, python3-tk, ros-iron-ament-copyright <!nocheck>, ros-iron-ament-flake8 <!nocheck>, ros-iron-ament-pep257 <!nocheck>, ros-iron-rclpy, ros-iron-sensor-msgs, ros-iron-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-iron-joy-tester
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, python3-tk, ros-iron-rclpy, ros-iron-sensor-msgs, ros-iron-ros-workspace
+Description: Simple GUI tool for testing joysticks/gamepads
